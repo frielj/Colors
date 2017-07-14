@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AD255D6A1F197B7300F910D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD255D691F197B7300F910D2 /* AppDelegate.swift */; };
-		AD255D6C1F197B7300F910D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD255D6B1F197B7300F910D2 /* ViewController.swift */; };
 		AD255D6F1F197B7300F910D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD255D6D1F197B7300F910D2 /* Main.storyboard */; };
 		AD255D721F197B7300F910D2 /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD255D701F197B7300F910D2 /* Colors.xcdatamodeld */; };
 		AD255D741F197B7300F910D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD255D731F197B7300F910D2 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		AD255D661F197B7300F910D2 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD255D691F197B7300F910D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD255D6B1F197B7300F910D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD255D6E1F197B7300F910D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD255D711F197B7300F910D2 /* Colors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colors.xcdatamodel; sourceTree = "<group>"; };
 		AD255D731F197B7300F910D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				AD255D691F197B7300F910D2 /* AppDelegate.swift */,
-				AD255D6B1F197B7300F910D2 /* ViewController.swift */,
 				AD255D6D1F197B7300F910D2 /* Main.storyboard */,
 				AD255D731F197B7300F910D2 /* Assets.xcassets */,
 				AD255D751F197B7300F910D2 /* LaunchScreen.storyboard */,
@@ -266,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD255D721F197B7300F910D2 /* Colors.xcdatamodeld in Sources */,
-				AD255D6C1F197B7300F910D2 /* ViewController.swift in Sources */,
 				AD255D6A1F197B7300F910D2 /* AppDelegate.swift in Sources */,
 				AD255D9B1F197BFC00F910D2 /* ColorController.swift in Sources */,
 			);
