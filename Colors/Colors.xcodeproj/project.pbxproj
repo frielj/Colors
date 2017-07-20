@@ -15,6 +15,8 @@
 		AD255D821F197B7300F910D2 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD255D811F197B7300F910D2 /* ColorsTests.swift */; };
 		AD255D8D1F197B7300F910D2 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD255D8C1F197B7300F910D2 /* ColorsUITests.swift */; };
 		AD255D9B1F197BFC00F910D2 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD255D9A1F197BFC00F910D2 /* ColorController.swift */; };
+		ADA4E1AD1F213D9D00CE7590 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4E1AC1F213D9D00CE7590 /* ColorDetailViewController.swift */; };
+		ADA4E1AF1F21409E00CE7590 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4E1AE1F21409E00CE7590 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AD255D8C1F197B7300F910D2 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		AD255D8E1F197B7300F910D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD255D9A1F197BFC00F910D2 /* ColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
+		ADA4E1AC1F213D9D00CE7590 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		ADA4E1AE1F21409E00CE7590 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				AD255D781F197B7300F910D2 /* Info.plist */,
 				AD255D701F197B7300F910D2 /* Colors.xcdatamodeld */,
 				AD255D9A1F197BFC00F910D2 /* ColorController.swift */,
+				ADA4E1AC1F213D9D00CE7590 /* ColorDetailViewController.swift */,
+				ADA4E1AE1F21409E00CE7590 /* Color.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				AD255D721F197B7300F910D2 /* Colors.xcdatamodeld in Sources */,
 				AD255D6A1F197B7300F910D2 /* AppDelegate.swift in Sources */,
 				AD255D9B1F197BFC00F910D2 /* ColorController.swift in Sources */,
+				ADA4E1AF1F21409E00CE7590 /* Color.swift in Sources */,
+				ADA4E1AD1F213D9D00CE7590 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +519,7 @@
 				AD255D931F197B7300F910D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD255D941F197B7300F910D2 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				AD255D961F197B7300F910D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD255D971F197B7300F910D2 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				AD255D991F197B7300F910D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
